@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Course Detail</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="logo">E-Learn</div>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="courses.html">Courses</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="content">
+    <h2>Course: HTML & CSS</h2>
+    <p>This course teaches HTML structure and CSS styling with live examples.</p>
+
+    <div class="video-wrapper">
+      <div id="player"></div>
+    </div>
+
+    <div class="progress-tracker">
+      <label>Progress: <span id="progressValue">0%</span></label>
+      <input type="range" id="progressRange" min="0" max="100" value="0" disabled />
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2025 E-Learn | All rights reserved.</p>
+  </footer>
+
+  <script src="https://www.youtube.com/iframe_api"></script>
+  <script src="script.js"></script>
+</body>
+</html>

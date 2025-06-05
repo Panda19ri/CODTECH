@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: #f4f4f4;
+  color: #333;
+}
+
+header {
+  background: #2c3e50;
+  padding: 15px 20px;
+}
+
+.logo {
+  color: white;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+  gap: 15px;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.nav-links a:hover {
+  color: #1abc9c;
+}
+
+.hero {
+  text-align: center;
+  padding: 100px 20px;
+  background: #1abc9c;
+  color: white;
+}
+
+.btn {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background: white;
+  color: #1abc9c;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+.content {
+  padding: 40px 20px;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.course-list {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+
+.course-card {
+  background: white;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  border-radius: 8px;
+}
+
+.video-wrapper {
+  margin: 20px 0;
+}
+
+.progress-tracker {
+  margin-top: 20px;
+}
+
+input[type="range"] {
+  width: 100%;
+  margin-top: 10px;
+}
+
+footer {
+  background: #2c3e50;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
